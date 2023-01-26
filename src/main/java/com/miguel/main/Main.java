@@ -1,4 +1,6 @@
-package com.miguel;
+package com.miguel.main;
+
+import com.miguel.classes.Person;
 
 public class Main {
     public static void main(String[] args) {

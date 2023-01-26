@@ -1,13 +1,12 @@
-package com.miguel;
+package com.miguel.classes;
 
-import com.miguel.classes.Person;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PersonTest {
+class PersonsListTest {
 
     @BeforeEach
     void setUp() {
@@ -17,10 +16,11 @@ class PersonTest {
     void tearDown() {
     }
 
+    @Test
+    void addPerson() {
+    }
 
     @Test
-    public void testValidAge() {
-        Person person = new Person(1, "John", 30, "Developer");
-        assertEquals(30, person.getAge());
+    void findByName() {
     }
 }

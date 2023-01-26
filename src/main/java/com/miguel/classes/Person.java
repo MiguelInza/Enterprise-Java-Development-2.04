@@ -1,4 +1,4 @@
-package com.miguel;
+package com.miguel.classes;
 //Create a Person class that has properties id, name, age, and occupation. Throw an error if someone tries to set age to less than 0. Include all tests.
 public class Person {
     private int id;
